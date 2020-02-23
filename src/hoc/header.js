@@ -9,10 +9,22 @@ export class header extends Component {
     handleOnSelect = (eventKey) => {
         this.props.history.push('/' + eventKey);
     }
-    
+
     render() {
+        let pathname = this.props.location.pathname;
+
+        let activeKey = null;
+        if (pathname.includes('/musics')) {
+            activeKey = 'musics';
+        } else if (pathname.includes('/movies')) {
+            activeKey = 'movies';
+        } else if (pathname.includes('/books')) {
+            activeKey = 'books';
+        }
+
         return (
             <Nav variant="tabs"
+                activeKey={activeKey}
                 className={classes.header}
                 onSelect={this.handleOnSelect}>
                 <Nav.Item>

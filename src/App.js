@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import Header from './hoc/header';
-import Books from './features/books/books';
+import BookPageContainer from './features/bookPage/bookPageContainer';
 import Movies from './features/movies/movies';
 import Musics from './features/musics/musics';
 
@@ -19,10 +19,10 @@ class App extends React.Component {
         <Header />
 
         <Switch>
-          <Route path="/books" exact component={Books} />
+          <Route path="/books" exact component={BookPageContainer} />
           <Route path="/musics" exact component={Musics} />
           <Route path="/movies" exact component={Movies} />
-          <Route path="/" component={Books} />
+          <Route path="/" component={BookPageContainer} />
         </Switch>
 
       </div>

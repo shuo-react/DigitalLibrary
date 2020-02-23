@@ -26,13 +26,20 @@ class Books extends React.Component {
         })
     }
 
+    handleOnClick = (bookId)=> {
+        this.props.history.push('/books/'+ bookId);
+    }
+
     render() {
         return (
             <div className={classes.wrapper}>
                 {this.state.books.map(book => 
-                    <BookCard key={book.id}
+                    <BookCard 
+                        key={book.id}
                         name={book.name}
-                        author={book.author}/>
+                        author={book.author}
+                        handleOnClick={() => this.handleOnClick(book.id)}
+                        />
                 )}
             </div>
         );
