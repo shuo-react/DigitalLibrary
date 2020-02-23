@@ -1,0 +1,26 @@
+
+.header {
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+li:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.active {
+    color: skyblue;
+}
