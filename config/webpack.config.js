@@ -665,3 +665,32 @@ module.exports = function(webpackEnv) {
     performance: false,
   };
 };
+
+
+//
+// dom 
+// document.getElementById().innerHTML
+// ES6
+// IE 7
+// npm run build
+// amazon 
+// slider photos 
+// ie 7
+// airbnb
+// 
+
+// get post delete put
+// restful
+// get post
+// 150 115 leetcode
+// count island
+
+
+// zeplin
+
+//  1 0 1 0
+//  0 0 1 0
+//  1 0 1 1
+
+// 10 - be 1 fe
+// 50 -    2

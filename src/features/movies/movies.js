@@ -20,3 +20,22 @@ export default Movies;
 // // es6
 // // export default xx => import xxx from './..'
 // // export class/ const function xxx => {}
+
+// dns
+// yourname-react
+
+
+
+i used react to build a website
+
+// be specific
+
+// what your project is
+
+// listing: office
+// Bootstrap
+// HLMT
+// 
+// <article> 5
+// google search bot 
+// .bot 
